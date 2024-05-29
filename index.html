@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos para el documento -->
+    <meta charset="utf-8"> <!-- Define el conjunto de caracteres utilizado -->
+    <meta name="author" content="Carmen Huitrón"> <!-- Autor del documento -->
+    <meta name="description" content="Portafolio de desarrollo web de Carmen Huitrón"> <!-- Descripción del sitio -->
+    <meta name="keywords" content="HTML, CSS, JavaScript, React"> <!-- Palabras clave para motores de búsqueda -->
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Configuración de la ventana gráfica para adaptabilidad -->
+
+    <!-- Título de la página -->
+    <title>Carmen Huitrón | Desarrollo Web Front-End</title>
+
+    <!-- Favicon del sitio web -->
+    <link rel="icon" type="image/x-icon" href="imagenes/icono.png">
+
+    <!-- CSS de Bootstrap para estilos y diseño -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <!-- Hoja de estilos personalizada -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Fuentes de Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <!-- Botón para el menú colapsable en pantallas pequeñas -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Enlaces del menú de navegación -->
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/icono.png" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">SOBRE MÍ</a>
+            </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">TESTIMONIOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">CONTACTO</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Sección principal (Hero) -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/Perfil.jpg" alt="Foto MIA ">
+        <h1 class="movimiento">HOLA!!</h1>
+        <h1 class="movimiento">🙋🏻‍♀️</h1>
+        <h1 class="movimiento">SOY CARMEN HUITRÓN</h1>
+        <!-- Animación de texto con JavaScript -->
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="imagenes/TALLER.jpg" alt="Imagen de una taller">
+      </div>
+    </section>
+
+    <!-- Sección sobre mí -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a Carmen Huitrón</h2>
+        <p class="seccion-texto">Estudiante de Licenciatura en Ingeniería en Computación y cuento con sólidos conocimientos como técnico en Informática. Mi principal propósito en la vida es convertirme en una profesional destacada en el ámbito STEM, adquiriendo habilidades y conocimientos que me permitan sobresalir en áreas como la programación y la ciencia de datos.
+          <p></p>
+          Me motiva la posibilidad de participar en proyectos innovadores y colaborar con otros profesionales para materializar ideas creativas.
+          Disfruto investigar y profundizar en temas desconocidos, siempre con la convicción de que cualquier desafío tiene una solución.
+          <p></p>
+           Me apasiona asistir a conferencias, talleres y cursos que me permitan seguir aprendiendo y creciendo en mi campo de estudio. Anhelo no solo alcanzar el éxito personal, sino también apoyar a otras personas en la realización de sus sueños y metas, brindándoles orientación y recursos para alcanzar el éxito.</p>
+      </div>
+    </section>
+
+    <!-- Sección de experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">DESARROLLO WEB</p>
+            <p>Durante mi experiencia en el dasarrollo web, es de constante 
+              adquicion tannto de conocimientos y habilidades
+               técnicas y la mentalidad creativa necesarias para abordar los desafíos más 
+               complejos, emocionado por seguir
+                creciendo y aprendiendo,
+               y por contribuir al mundo digital con mucho compromiso y dedicación.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+            </div>
+          </div>
+          <!-- Artículos -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">CURSOS</p>
+            <p>Mi participación activa en conferencias y 
+              cursos ha sido esencial para mi crecimiento y éxito profesional. 
+              <p></p>
+              Estas experiencias continúan siendo una fuente de inspiración y motivación, impulsándome a alcanzar nuevos logros y
+               contribuir de manera significativa al campo en el que me desempeño.
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">RStudio</span>
+              <span class="badge text-bg-primary">Aprende.mx</span>
+              <span class="badge text-bg-primary">Redes</span>
+              <span class="badge text-bg-primary">Portafolio de Inversion</span>
+              <span class="badge text-bg-primary">Redes</span>
+            </div>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Estudiante</p>
+            <p>Ha sido un período de aprendizaje constante,
+               explorando diversas áreas del conocimiento en la universidad.
+               Cada asignatura y proyecto ha contribuido a mi crecimiento académico y personal, 
+               preparándome para mi futuro profesional.
+               <p></p>
+              El curso de TecnolochicasPRO y mi experiencia universitaria han sido fundamentales en mi desarrollo. 
+              Estoy emocionada de aplicar estos conocimientos en mi carrera y contribuir al campo en el que me desempeño.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Tecnolochicas PRO</span>
+              <span class="badge text-bg-primary">Desarrollo Web</span>
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de testimonios -->
+    <section id="testimonios" class="testimonios seccion-oscura">
+      <div class="container">
+        <h2 class="seccion-titulo text-center">TESTIMONIOS DE TECNOLOCHICAS PRO</h2>
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-4">
+            <div class="testimonio text-center">
+              <img src="imagenes/Lider 1.jpeg" class="rounded-circle mb-3" alt="Persona 1">
+              <p class="testimonio-texto">El Bootcamp de Tecnolochicas PRO nos dio la oportunidad de obtener bases sólidas en HTML y CSS para continuar con nuestra formación de desarrollador Frontend, así como mejorar la confianza en nuestras capacidades y hacer crecer nuestra red de contactos.
+                En general me agrado mucho y agradezco la oportunidad de formar parte del proyecto.</p>
+              <p class="testimonio-autor">Carmen Paola Aceves</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="testimonio text-center">
+              <img src="imagenes/Lider 2.jpeg" class="rounded-circle mb-3" alt="Persona 2">
+              <p class="testimonio-texto">Carmen Huitrón es una persona  responsable , colaborativa y enfocada , la recomiendo ampliamente en la creación de sus proyectos .
+              </p>
+              <p class="testimonio-autor">Narely García</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="testimonio text-center">
+              <img src="imagenes/Lider 3.jpeg" class="rounded-circle mb-3" alt="Persona 3">
+              <p class="testimonio-texto">Tomé el curso de Desarrollo Web por Tecnolochicas y fue una experiencia excelente, el contenido del curso fue básico para introducirme más hacia el diseño web, la participación de la comunidad fue muy agradable, además, durante el curso las mentoras siempre dispuestas a ayudar y guiar. Recomiendo este curso a 
+                cualquiera que quiera adentrarse en el mundo del desarrollo web.</p>
+              <p class="testimonio-autor">Monserrat García Núñez</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de contacto -->
+    <section id="contacto" class="contacto seccion-clara">
+      <div class="container">
+        <h2 class="seccion-titulo text-center texto-negro">Contáctame</h2>
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombre">
+          </div>
+          <div class="col-md-6">
+            <label for="correo" class="form-label">Correo electrónico</label>
+            <input type="email" class="form-control" id="correo">
+          </div>
+          <div class="col-12">
+            <label for="mensaje" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="mensaje" rows="3"></textarea>
+          </div>
+          <div class="col-12 text-center">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer class="seccion-oscura d-flex flex-column justify-content-center align-items-center">
+      <p class="mb-0">Carmen Huitrón</p>
+      <div class="iconos-redes-sociales d-flex justify-content-center align-items-center">
+        <a href="https://www.linkedin.com/in/carmen-huitr%C3%B3n/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://github.com/carmen09h" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+      </div>
+      <p class="mt-3">© Carmen Huitrón</p>
+    </footer>
+
+    <!-- JavaScript de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9gybBogGzX2sP5ty7QINNVmh30lxitg5yiBsyJwIyB5P5AXTWe/" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-pLV9eRE1+o65pGFE6dM5UJOGF4w0aUpGSo3TXkMAePAmJJ5yYU2v27C2BqA5iX/a" crossorigin="anonymous"></script>
+
+    <!-- Script para la animación de texto -->
+    <script src="scripts/typewriter.js"></script>
+  </body>
+</html>
